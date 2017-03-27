@@ -43,7 +43,6 @@ export let UserProfile = React.createClass({
 				
 				if(stars[i].name === name ) {
 				
-
 				const 	myUrl = stars[i].img
 				var photo = document.createElement("IMG");
 				photo.setAttribute("src", myUrl);

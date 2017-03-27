@@ -131,15 +131,15 @@ animation-fill-mode:forwards;
 
  @media screen and (max-width: 500px )  { 
 
-		@-webkit-keyframes slideRight {
-		    from {width: 0px;}
-		    to {width: 100%;}
-		}
+	@-webkit-keyframes slideRight {
+	    from {width: 0px;}
+	    to {width: 100%;}
+	}
 
-		@keyframes slideRight {
-		    from {width: 0px;}
-		    to {width: 100%;}
-		}
+	@keyframes slideRight {
+	    from {width: 0px;}
+	    to {width: 100%;}
+	}
 
   }
 
@@ -211,10 +211,10 @@ animation-fill-mode:forwards;
 /*  table  page */ 
 
 table.stars {
-	width:98%;
-	color:#fff;
+width:98%;
+color:#fff;
 }
 table td {
-	text-align:center;
-	border-bottom:1px solid #fff ;
+text-align:center;
+border-bottom:1px solid #fff;
 }
