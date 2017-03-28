@@ -46,9 +46,9 @@ export let UserProfile = React.createClass({
 				const 	myUrl = stars[i].img
 				var photo = document.createElement("IMG");
 				photo.setAttribute("src", myUrl);
-		    	photo.setAttribute("width", "442");
+		    		photo.setAttribute("width", "442");
 		 		photo.setAttribute("alt", name);
-		    	document.getElementById('tmuna').appendChild(photo)
+		    		document.getElementById('tmuna').appendChild(photo)
 				}
 			}
 
